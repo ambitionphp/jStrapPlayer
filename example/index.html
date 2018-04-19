@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>jStrapPlayer - jPlayer Featuring Seamless Bootstrap Integration</title>
+
+    <style>
+        .container {
+            max-width:600px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="clearfix mb-3">
+                <div class="dropdown btn-group pull-right">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Themes <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu themes" role="menu"></ul>
+                </div>
+                <h2 class="text-primary">jStrapPlayer</h2>
+            </div>
+
+            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+            <div id="jp_container_1" class="card mb-4 jp-audio" role="application" aria-label="media player">
+                <div class="card-body p-2">
+                    <div class="row no-gutters">
+                        <div class="col-auto align-self-center text-center">
+                            <button class="btn btn-primary btn-sm  ml-1 mr-2 jp-play">
+                                <i class="fa fa-play fa-fw"></i>
+                                <i class="fa fa-pause fa-fw"></i>
+                            </button>
+                        </div>
+                        <div class="col-auto align-self-center text-center">
+                            <small class="jp-current-time">00:00</small>
+                        </div>
+                        <div class="col px-2 align-self-center">
+                            <div class="progress bg-light jp-progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated jp-play-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-auto align-self-center text-center">
+                            <small class="jp-duration">00:00</small>
+                        </div>
+                        <div class="col-auto ml-2 align-self-center text-center">
+                            <a href="#" class="btn btn-primary btn-sm bs-volume" data-toggle="popover" data-container="" data-placement="top" data-html="true" data-content="">
+                                <i class="fa fa-volume-up fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="jquery_jplayer_2" class="jp-jplayer"></div>
+            <div id="jp_container_2" class="card mb-4 jp-audio" role="application" aria-label="media player">
+                <div class="card-body p-2">
+                    <div class="row no-gutters">
+                        <div class="col-auto align-self-center text-center">
+                            <button class="btn btn-primary btn-sm  ml-1 mr-2 jp-play">
+                                <i class="fa fa-play fa-fw"></i>
+                                <i class="fa fa-pause fa-fw"></i>
+                            </button>
+                        </div>
+                        <div class="col align-self-center">
+                            <div class="progress bg-light mt-1 jp-progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated jp-play-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div>
+                                <small class="pull-right jp-duration">00:00</small>
+                                <small class="pull-left jp-current-time">00:00</small>
+                            </div>
+                        </div>
+                        <div class="col-auto ml-2 align-self-center text-center">
+                            <a href="#" class="btn btn-primary btn-sm bs-volume" data-toggle="popover" data-container="" data-placement="top" data-html="true" data-content="">
+                                <i class="fa fa-volume-up fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="jquery_jplayer_3" class="jp-jplayer"></div>
+            <div id="jp_container_3" class="card mb-4 jp-audio" role="application" aria-label="media player">
+                <div class="card-body p-2">
+                    <div class="row no-gutters">
+                        <div class="col-auto align-self-center text-center">
+                            <button class="btn btn-primary btn-sm  ml-1 mr-2 jp-play">
+                                <i class="fa fa-play fa-fw"></i>
+                                <i class="fa fa-pause fa-fw"></i>
+                            </button>
+                        </div>
+                        <div class="col align-self-center">
+
+                            <div class="">
+                                <small class="jp-title">Artist - Song Name</small>
+                            </div>
+
+                            <div class="progress bg-light jp-progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated jp-play-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div>
+                                <small class="pull-right jp-duration">00:00</small>
+                                <small class="pull-left jp-current-time">00:00</small>
+                            </div>
+                        </div>
+                        <div class="col-auto ml-2 align-self-center text-center">
+                            <a href="#" class="btn btn-primary btn-sm bs-volume" data-toggle="popover" data-container="" data-placement="top" data-html="true" data-content="">
+                                <i class="fa fa-volume-up fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="jquery_jplayer_4" class="jp-jplayer"></div>
+            <div id="jp_container_4" class="card mb-4 jp-audio" role="application" aria-label="media player">
+                <div class="card-body p-2">
+                    <div class="row no-gutters">
+                        <div class="col-auto align-self-center text-center">
+                            <button class="btn btn-primary btn-sm  ml-1 mr-2 jp-play">
+                                <i class="fa fa-play fa-fw"></i>
+                                <i class="fa fa-pause fa-fw"></i>
+                            </button>
+                        </div>
+                        <div class="col-auto align-self-center text-center">
+                            <small class="jp-current-time">00:00</small>
+                        </div>
+                        <div class="col px-2 align-self-center">
+                            <div class="progress bg-light jp-progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated jp-play-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-auto align-self-center text-center">
+                            <small class="jp-duration">00:00</small>
+                        </div>
+                        <div class="col-auto ml-2 align-self-center text-center">
+                            <a href="#" class="btn btn-primary btn-sm bs-volume" data-toggle="popover" data-container="" data-placement="top" data-html="true" data-content="">
+                                <i class="fa fa-volume-up fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="mt-2 mx-2 mb-0" />
+                    <div class="pt-1 px-1 pb-0 jp-playlist">
+                        <ul class="list-unstyled mb-0">
+                            <li>&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="jquery_jplayer_5" class="jp-jplayer"></div>
+            <div id="jp_container_5" class="card mb-4 jp-audio" role="application" aria-label="media player">
+                <div class="card-body p-2">
+                    <div class="row no-gutters">
+                        <div class="col-auto align-self-center text-center">
+                            <button class="btn btn-primary btn-sm  ml-1 mr-2 jp-play">
+                                <i class="fa fa-play fa-fw"></i>
+                                <i class="fa fa-pause fa-fw"></i>
+                            </button>
+                        </div>
+                        <div class="col align-self-center">
+                            <div class="progress bg-light mt-1 jp-progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated jp-play-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                             </div>
+                            <div>
+                                <small class="pull-right jp-duration">00:00</small>
+                                <small class="pull-left jp-current-time">00:00</small>
+                            </div>
+                        </div>
+                        <div class="col-auto ml-2 align-self-center text-center">
+                            <a href="#" class="btn btn-primary btn-sm bs-volume" data-toggle="popover" data-container="" data-placement="top" data-html="true" data-content="">
+                                <i class="fa fa-volume-up fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="mt-2 mx-2 mb-0" />
+                    <div class="pt-1 px-1 pb-0 jp-playlist">
+                        <ul class="list-unstyled mb-0">
+                            <li>&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="jquery_jplayer_6" class="jp-jplayer"></div>
+            <div id="jp_container_6" class="card mb-4 jp-audio" role="application" aria-label="media player">
+                <div class="card-body p-2">
+                    <div class="row no-gutters">
+                        <div class="col-auto align-self-center text-center">
+                            <button class="btn btn-primary btn-sm  ml-1 mr-2 jp-play">
+                                <i class="fa fa-play fa-fw"></i>
+                                <i class="fa fa-pause fa-fw"></i>
+                            </button>
+                        </div>
+                        <div class="col align-self-center">
+
+                            <div class="">
+                                <small class="jp-title">Artist - Song Name</small>
+                            </div>
+
+                            <div class="progress bg-light jp-progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated jp-play-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div>
+                                <small class="pull-right jp-duration">00:00</small>
+                                <small class="pull-left jp-current-time">00:00</small>
+                            </div>
+                        </div>
+                        <div class="col-auto ml-2 align-self-center text-center">
+                            <a href="#" class="btn btn-primary btn-sm bs-volume" data-toggle="popover" data-container="" data-placement="top" data-html="true" data-content="">
+                                <i class="fa fa-volume-up fa-fw"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="mt-2 mx-2 mb-0" />
+                    <div class="pt-1 px-1 pb-0 jp-playlist">
+                        <ul class="list-unstyled mb-0">
+                            <li>&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="../jplayer/jquery.jplayer.min.js"></script>
+<script src="../jplayer/jplayer.playlist.min.js"></script>
+<script src="../other/bootswatch.js"></script>
+<script src="../dist/jstrapplayer.min.js"></script>
+<script>
+    //<![CDATA[
+    $(document).ready(function(){
+
+        $("#jquery_jplayer_1").jStrapPlayer({
+            cssSelectorAncestor: '#jp_container_1',
+            swfPath: 'jplayer',
+            supplied: 'm4a, oga',
+            wmode: 'window',
+            autoBlur: false,
+            smoothPlayBar: false,
+            keyEnabled: true,
+            remainingDueration: false,
+            toggleDuration: true,
+            media: {
+                title: "Bubble",
+                m4a: "http://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+                oga: "http://jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+            }
+        });
+
+        $("#jquery_jplayer_2").jStrapPlayer({
+            cssSelectorAncestor: "#jp_container_2",
+            media: {
+                title: "Bubble",
+                m4a: "http://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+                oga: "http://jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+            }
+        });
+
+        $("#jquery_jplayer_3").jStrapPlayer({
+            cssSelectorAncestor: "#jp_container_3",
+            media: {
+                title: "Bubble",
+                m4a: "http://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+                oga: "http://jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+            }
+        });
+
+        $("#jquery_jplayer_4").jStrapPlayer({
+            cssSelectorAncestor: "#jp_container_4",
+            media: [
+                {
+                    title:"Cro Magnon Man",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
+                },
+                {
+                    title:"Your Face",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+                },
+                {
+                    title:"Cyber Sonnet",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
+                },
+                {
+                    title:"Tempered Song",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
+                },
+                {
+                    title:"Hidden",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+                },
+                {
+                    title:"Lentement",
+                    free:true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
+                },
+                {
+                    title:"Lismore",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+                },
+                {
+                    title:"The Separation",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
+                },
+                {
+                    title:"Beside Me",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
+                },
+                {
+                    title:"Bubble",
+                    free:true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+                },
+                {
+                    title:"Stirring of a Fool",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
+                },
+                {
+                    title:"Partir",
+                    free: true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
+                },
+                {
+                    title:"Thin Ice",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
+                }
+            ]
+        });
+
+        $("#jquery_jplayer_5").jStrapPlayer({
+            cssSelectorAncestor: "#jp_container_5",
+            media: [
+                {
+                    title:"Cro Magnon Man",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
+                },
+                {
+                    title:"Your Face",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+                },
+                {
+                    title:"Cyber Sonnet",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
+                },
+                {
+                    title:"Tempered Song",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
+                },
+                {
+                    title:"Hidden",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+                },
+                {
+                    title:"Lentement",
+                    free:true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
+                },
+                {
+                    title:"Lismore",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+                },
+                {
+                    title:"The Separation",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
+                },
+                {
+                    title:"Beside Me",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
+                },
+                {
+                    title:"Bubble",
+                    free:true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+                },
+                {
+                    title:"Stirring of a Fool",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
+                },
+                {
+                    title:"Partir",
+                    free: true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
+                },
+                {
+                    title:"Thin Ice",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
+                }
+            ]
+        });
+
+        $("#jquery_jplayer_6").jStrapPlayer({
+            cssSelectorAncestor: "#jp_container_6",
+            media: [
+                {
+                    title:"Cro Magnon Man",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
+                },
+                {
+                    title:"Your Face",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+                },
+                {
+                    title:"Cyber Sonnet",
+                    mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
+                },
+                {
+                    title:"Tempered Song",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
+                },
+                {
+                    title:"Hidden",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+                },
+                {
+                    title:"Lentement",
+                    free:true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
+                },
+                {
+                    title:"Lismore",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+                },
+                {
+                    title:"The Separation",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
+                },
+                {
+                    title:"Beside Me",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
+                },
+                {
+                    title:"Bubble",
+                    free:true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+                },
+                {
+                    title:"Stirring of a Fool",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
+                },
+                {
+                    title:"Partir",
+                    free: true,
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
+                },
+                {
+                    title:"Thin Ice",
+                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+                    oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
+                }
+            ]
+        });
+
+        $('.themes').bootswatch();
+
+    });
+    //]]>
+</script>
+</body>
+</html>
