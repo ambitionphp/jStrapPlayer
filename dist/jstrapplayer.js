@@ -36,6 +36,9 @@
                 playlistOptions: {
                     freeGroupClass: "pull-right",
                     itemClass: "d-inline-block"
+                },
+                play: function() {
+                    $(this).jPlayer("pauseOthers"); // pause all players except this one.
                 }
             });
         }
@@ -68,7 +71,10 @@
                 smoothPlayBar: this.options.smoothPlayBar,
                 keyEnabled: this.options.keyEnabled,
                 remainingDuration: this.options.remainingDuration,
-                toggleDuration: this.options.toggleDuration
+                toggleDuration: this.options.toggleDuration,
+                play: function() {
+                    $(this).jPlayer("pauseOthers"); // pause all players except this one.
+                }
             });
         }
     };
